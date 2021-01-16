@@ -1,4 +1,6 @@
 .hero {
+    display: flex;
+
     &__image {
         position: relative;
         background-image: url("/images/bg-intro-mobile.svg");
@@ -20,5 +22,19 @@
     }
 
     &__text {
+        text-align: center;
+
+        h1 {
+            font-weight: 300;
+            font-size: 2.3125rem;
+            line-height: 1.15;
+            color: $darkBlue;
+            margin-bottom: 1.5reem;
+        }
+
+        p {
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
     }
 }
